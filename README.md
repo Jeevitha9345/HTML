@@ -291,3 +291,14 @@ function hello() {
 <input>
 <meta>
 📌 No closing tag needed
+
+<header> – top area (logo, title)
+<nav> – navigation menu
+<main> – main content
+<section> – grouped content
+<article> – independent content
+<aside> – sidebar
+<footer> – bottom area
+
+🔹 Why important?
+This is called Semantic HTML → helps SEO + clean code + professional look
