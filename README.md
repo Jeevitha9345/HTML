@@ -152,25 +152,27 @@ body    → Face & hands (visible)
 </body>
 </html>
 📌 This is the minimum working HTML page
-🟢 2. METADATA TAGS
+
+2. METADATA TAGS
 <meta charset="UTF-8">
 <meta name="description" content="Student portfolio website">
 <link rel="stylesheet" href="style.css">
 📌 Used for SEO, language support, CSS linking
 
-
-🟢 3. HEADINGS & PARAGRAPH
+3. HEADINGS & PARAGRAPH
 <h1>Welcome</h1>
 <h2>About Me</h2>
 <p>I am learning HTML.</p>
 📌 Used to structure content properly
-🟢 4. TEXT FORMATTING
+
+4. TEXT FORMATTING
 <p><strong>Important:</strong> Submit before Friday</p>
 <p><em>Italic text</em></p>
 <p><mark>Highlighted text</mark></p>
 <p>Price <del>₹500</del> ₹300</p>
 📌 Used in blogs, notices, offers
-🟢 5. DIV & SPAN
+
+5. DIV & SPAN
 <div>
   <h2>Section</h2>
   <p>Grouped content</p>
@@ -178,20 +180,24 @@ body    → Face & hands (visible)
 <p>This is <span>important</span> text</p>
 📌 div → block
 📌 span → inline
-🟢 6. LINKS
+
+6. LINKS
 <a href="https://google.com">Go to Google</a>
 <a href="#contact">Go to Contact</a>
 <a href="mailto:test@gmail.com">Send Email</a>
 📌 Used for navigation & communication
-🟢 7. IMAGES
+
+7. IMAGES
 <img src="profile.jpg" alt="My profile photo">
 📌 alt is mandatory for accessibility & SEO
-🟢 8. FIGURE & CAPTION
+
+8. FIGURE & CAPTION
 <figure>
   <img src="car.jpg">
   <figcaption>Sports Car</figcaption>    </figure>
 📌 Used for images with description
-🟢 9. LISTS
+
+9. LISTS
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -201,13 +207,15 @@ body    → Face & hands (visible)
   <li>Dashboard</li>
 </ol>
 📌 Used in menus, steps, features
-🟢 10. DESCRIPTION LIST
+
+10. DESCRIPTION LIST
 <dl>
   <dt>HTML</dt>
   <dd>Markup language</dd>
 </dl>
 📌 Used for definitions
-🟢 11. TABLES
+
+11. TABLES
 <table border="1">
   <tr>
     <th>Name</th>
@@ -219,43 +227,50 @@ body    → Face & hands (visible)
   </tr>
 </table>
 📌 Used for reports, dashboards
-🟢 12. FORMS
+
+12. FORMS
 <form>
   <label>Name:</label>
   <input type="text">
   <button>Submit</button>
 </form>
 📌 Used for login, signup, feedback
-🟢 13. INPUT TYPES
+
+13. INPUT TYPES
 <input type="email" placeholder="Email">
 <input type="password" placeholder="Password">
 <input type="radio"> Male
 <input type="checkbox"> Agree
 📌 Used to collect user data
-🟢 14. SELECT & TEXTAREA
+
+14. SELECT & TEXTAREA
 <select>
   <option>India</option>
   <option>USA</option>
 </select>
 <textarea>Message</textarea>
 📌 Used in forms
-🟢 15. SEMANTIC TAGS 🔥
+
+15. SEMANTIC TAGS 🔥
 <header>Website Header</header>
 <nav>Menu</nav>
 <main>Main content</main>
 <section>About section</section>
 <footer>Copyright 2026</footer>
 📌 Used in real professional websites
-🟢 16. DETAILS & SUMMARY
+
+16. DETAILS & SUMMARY
 <details>
   <summary>More Info</summary>
   Hidden content here
 </details>
 📌 Click to expand content
-🟢 17. IFRAME
+
+17. IFRAME
 <iframe src="https://example.com"></iframe>
 📌 Used to embed another webpage
-🟢 18. CODE & PRE
+
+18. CODE & PRE
 <pre>
 function hello() {
   return "Hi";
@@ -263,11 +278,13 @@ function hello() {
 </pre>
 <code>console.log("Hello")</code>
 📌 Used in documentation & tutorials
-🟢 19. MEDIA
+
+19. MEDIA
 <audio controls src="song.mp3"></audio>
 <video controls src="video.mp4"></video>
 📌 Used in media websites
-🟢 20. VOID TAGS (NO CLOSING)
+
+20. VOID TAGS (NO CLOSING)
 <br>
 <hr>
 <img>
