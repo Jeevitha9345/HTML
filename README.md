@@ -292,6 +292,7 @@ function hello() {
 <meta>
 📌 No closing tag needed
 
+//some common tags
 <header> – top area (logo, title)
 <nav> – navigation menu
 <main> – main content
