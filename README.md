@@ -42,6 +42,7 @@ o	WHATWG wanted a living standard
 •	In 2019, both agreed to maintain one unified HTML standard
 
 BASIC HTML STRUCTURE
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
