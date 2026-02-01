@@ -304,3 +304,134 @@ function hello() {
 
 🔹 Why important?
 This is called Semantic HTML → helps SEO + clean code + professional look
+
+**Form**
+What is a Form?
+👉 Form is used to collect data from users (name, email, login, feedback, etc.)
+<form>
+    <!-- form elements go here -->
+</form>
+
+1️⃣ <input> TAG (MOST IMPORTANT)
+Used to take user input.
+The behavior depends on the type attribute.
+
+🔸 type="text"
+👉 Used for normal text input.
+<input type="text" placeholder="Enter name">
+
+🔸 type="email"
+👉 Accepts email format only.
+<input type="email" placeholder="Enter email">
+
+🔸 type="password"
+👉 Hides the typed characters.
+<input type="password" placeholder="Enter password">
+
+🔸 type="number"
+👉 Accepts only numbers.
+<input type="number" placeholder="Enter age">
+
+🔸 type="date"
+👉 Shows a date picker.
+<input type="date">
+
+🔸 type="radio"
+👉 Used to select one option only.
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+📌 Same name = only one can be selected.
+
+🔸 type="checkbox"
+👉 Used to select multiple options.
+<input type="checkbox"> HTML
+<input type="checkbox"> CSS
+
+🔸 type="file"
+👉 Used to upload files.
+<input type="file">
+
+🔸 type="submit"
+👉 Submits the form.
+<input type="submit" value="Register">
+
+2️⃣ <label> TAG
+👉 Describes what the input is for.
+<label>Name:</label>
+<input type="text">
+
+✅ Correct & Best Way (Accessibility)
+<label for="name">Name:</label>
+<input type="text" id="name">
+
+3️⃣ <textarea>
+👉 Used for long text input (feedback, comments).
+<textarea rows="4" cols="30" placeholder="Enter message"></textarea>
+
+4️⃣ <select> & <option>
+👉 Used to create dropdown list.
+<select>
+    <option>HTML</option>
+    <option>CSS</option>
+    <option>JavaScript</option>
+</select>
+
+5️⃣ <button>
+👉 Used to perform actions like submit.
+<button>Submit</button>
+
+6️⃣ IMPORTANT FORM ATTRIBUTES (VERY IMPORTANT)
+🔹 placeholder
+👉 Shows hint text.
+<input type="text" placeholder="Enter username">
+
+🔹 required
+👉 Makes field mandatory.
+<input type="email" required>
+
+🔹 name
+👉 Used to identify data (important for backend).
+<input type="text" name="username">
+
+🔹 value
+👉 Default value of input.
+<input type="text" value="Jeevi">
+
+🔹 readonly
+👉 User can see but cannot edit.
+<input type="text" value="India" readonly>
+
+🔹 disabled
+👉 Input is disabled (cannot click).
+<input type="text" disabled>
+
+7️⃣ COMPLETE SIMPLE FORM (EXAMPLE)
+<form>
+    <label>Name:</label>
+    <input type="text" placeholder="Enter name" required><br><br>
+    <label>Email:</label>
+    <input type="email" required><br><br>
+    <label>Password:</label>
+    <input type="password"><br><br>
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br><br>
+    <label>Skills:</label>
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS<br><br>
+    <label>Course:</label>
+    <select>
+        <option>Web Development</option>
+        <option>Data Science</option>
+    </select><br><br>
+    <label>Message:</label><br>
+    <textarea rows="4" cols="30"></textarea><br><br>
+    <button>Submit</button>
+</form>
+
+✅ INTERVIEW POINT (IMPORTANT)
+<input> → single-line input
+<textarea> → multi-line input
+<select> → dropdown
+radio → one choice
+checkbox → multiple choice
