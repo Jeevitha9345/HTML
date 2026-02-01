@@ -6,33 +6,39 @@ HTML
 •	HTML supports everything from: Static web pages, Interactive forms, Games, Web-based applications
 •	HTML is designed for Run in browsers, Have low CPU usage, Can be accessed from different locations
 •	History
+
 Early Development (1990–1997)
 •	HTML originated at CERN
 •	Later managed by the IETF
 •	HTML 3.0 failed
 •	HTML 3.2 succeeded (1997)
 •	HTML 4 followed shortly
+
 Shift to XHTML (1998–2003)
 •	W3C stopped evolving HTML
 •	Focus shifted to XHTML, an XML-based version
 •	XHTML 1.0 introduced no new features
 •	XHTML Modularization followed
 •	XHTML2 attempted but was incompatible with existing HTML
+
 DOM Development
 •	DOM Level 1 (1998)
 •	DOM Level 2 (2000–2003)
 •	DOM Level 3 incomplete
+
 Revival of HTML
 •	XForms sparked renewed interest
 •	Browser vendors realized XML could not replace HTML
 •	Opera created an early HTML forms extension
 •	Proposal rejected by W3C in 2004
+
 Birth of WHATWG
 •	Apple, Mozilla, and Opera formed WHATWG
 •	Focus on:
 o	Backward compatibility
 o	Real-world browser behavior
 o	Detailed specifications
+
 Collaboration and Living Standard
 •	W3C rejoined in 2006
 •	HTML5 development started jointly
