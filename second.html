@@ -1,0 +1,155 @@
+<!-- BASIC HTML STRUCTURE -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- charset: supports all languages & symbols -->
+    <meta charset="UTF-8">
+
+    <!-- viewport: makes website mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- description: summary for search engines (SEO) -->
+    <meta name="description" content="Complete HTML example with meta tags, media, attributes, entities and accessibility">
+
+    <!-- keywords: related keywords (basic SEO) -->
+    <meta name="keywords" content="HTML, meta tags, forms, media, accessibility">
+
+    <!-- title: text shown in browser tab -->
+    <title>Complete HTML Final Page</title>
+</head>
+
+<body>
+
+<!-- HEADER (semantic tag for intro content) -->
+<header>
+    <h1 title="Main heading of the page">HTML Final Demo</h1>
+    <p>This page demonstrates <strong>advanced HTML basics</strong>.</p>
+</header>
+
+<!-- NAVIGATION BAR -->
+<nav>
+    <!-- href: link destination -->
+    <a href="#form">Form</a> |
+    <a href="#media">Media</a> |
+    <a href="#about">About</a>
+</nav>
+
+<hr>
+
+<!-- SECTION: RELATED CONTENT -->
+<section id="about">
+    <h2>About HTML</h2>
+
+    <!-- article: independent content -->
+    <article>
+        <h3>What is HTML?</h3>
+        <p>
+            HTML stands for &lt;HyperText Markup Language&gt;.
+            <!-- &lt; &gt; are HTML entities -->
+        </p>
+        <p>&copy; 2026 HTML Learning</p>
+        <!-- &copy; is an HTML entity -->
+    </article>
+</section>
+
+<hr>
+
+<!-- FORM SECTION -->
+<section id="form">
+    <h2>Student Registration Form</h2>
+
+    <!-- form: collects user input -->
+    <form>
+
+        <!-- label + input (accessibility) -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <br><br>
+
+        <label for="course">Course:</label>
+        <select id="course">
+            <option>Web Development</option>
+            <option>Data Science</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <button type="submit" title="Submit the form">Submit</button>
+    </form>
+</section>
+
+<hr>
+
+<!-- MEDIA SECTION -->
+<section id="media">
+    <h2>Media & Embeds</h2>
+
+    <!-- image with alt text (accessibility) -->
+    <img src="image.jpg" alt="Sample image for HTML demo" width="200">
+    <br><br>
+
+    <!-- audio element -->
+    <audio controls>
+        <source src="audio.mp3">
+        Your browser does not support audio.
+    </audio>
+    <br><br>
+
+    <!-- video element -->
+    <video controls width="300">
+        <source src="video.mp4">
+        Your browser does not support video.
+    </video>
+    <br><br>
+
+    <!-- iframe: embed external content -->
+    <iframe 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+        width="300"
+        height="200"
+        title="YouTube video embed">
+    </iframe>
+</section>
+
+<hr>
+
+<!-- DIV: layout container (no meaning) -->
+<div class="note">
+    <p title="Extra information">
+        This <span>div</span> is used only for layout or styling.
+        <!-- span is inline container -->
+    </p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p>
+        &copy;&nbsp;2026 HTML Complete Learning
+        <!-- &nbsp; = non-breaking space -->
+    </p>
+</footer>
+
+</body>
+</html>
