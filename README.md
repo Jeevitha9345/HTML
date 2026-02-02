@@ -444,15 +444,11 @@ checkbox → multiple choice
 
 1️⃣ <div> — Layout Container
 🔹 What it is
-
 A generic container with no meaning.
 
 🔹 Why it is used
-
 Group elements
-
 Create layout
-
 Apply CSS / JS
 
 📌 Browser & SEO don’t understand meaning.
@@ -462,21 +458,15 @@ Apply CSS / JS
     <h2>Profile</h2>
     <p>Name: Jeevi</p>
 </div>
-
-
 ✅ Use when no semantic meaning is needed.
 
 2️⃣ <section> — Related Content Group
 🔹 What it is
-
 A semantic container for related content.
 
 🔹 Why it is used
-
 Organizes page into sections
-
 Improves readability & SEO
-
 📌 Should have a heading.
 
 🔹 Example
@@ -484,30 +474,22 @@ Improves readability & SEO
     <h2>Skills</h2>
     <p>HTML, CSS, JavaScript</p>
 </section>
-
-
 ✅ Use when content belongs to one topic.
 
 3️⃣ <article> — Independent Content
 🔹 What it is
-
 A self-contained piece of content.
 
 🔹 Why it is used
-
 Can be reused or shared
-
 Makes sense on its own
 
 📌 Often used for blogs, posts, cards.
-
 🔹 Example
 <article>
     <h2>HTML Basics</h2>
     <p>HTML is used to structure web pages.</p>
 </article>
-
-
 ✅ Use when content is standalone.
 
 🧠 INTERVIEW COMPARISON (MEMORIZE THIS)
@@ -515,8 +497,8 @@ Tag	Meaning	When to Use
 <div>	No meaning	Layout / styling
 <section>	Related content	Topic grouping
 <article>	Independent content	Blog / post
+    
 🔑 GOLDEN RULE (INTERVIEW TIP)
-
 If content can stand alone → ARTICLE
 If content belongs to a topic → SECTION
 If you just need a container → DIV
