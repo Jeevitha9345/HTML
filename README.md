@@ -502,3 +502,138 @@ Tag	Meaning	When to Use
 If content can stand alone → ARTICLE
 If content belongs to a topic → SECTION
 If you just need a container → DIV
+
+3️⃣ META TAGS (HEAD DEEP DIVE)
+Meta tags give information about the webpage, not visible on screen.
+They help with SEO, mobile view, browser behavior.
+
+🔹 charset
+👉 Defines character encoding.
+<meta charset="UTF-8">
+✔️ Supports all languages & symbols
+✔️ Prevents text breaking
+
+🔹 viewport (VERY IMPORTANT)
+👉 Makes website mobile-friendly.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+❌ Without this → site looks zoomed on mobile
+✅ With this → responsive layout
+
+🔹 description
+👉 Short summary of page (used by search engines).
+<meta name="description" content="Learn HTML basics with examples">
+✔️ Helps SEO
+✔️ Shown in Google search preview
+
+🔹 keywords
+👉 Keywords related to page content.
+<meta name="keywords" content="HTML, web development, forms">
+📌 Less important now, but good to know.
+📌 INTERVIEW LINE
+Meta tags help search engines and browsers understand the webpage.
+
+4️⃣ MEDIA & EMBEDS
+Used to add audio, video, and external content.
+
+🔹 <audio>
+👉 Used to play audio files.
+<audio controls>
+    <source src="song.mp3">
+</audio>
+✔️ controls → play, pause buttons
+✔️ Used for music, podcasts
+
+🔹 <video>
+👉 Used to play videos.
+<video controls width="300">
+    <source src="video.mp4">
+</video>
+✔️ Used for tutorials, demos
+
+🔹 <iframe>
+👉 Used to embed another webpage.
+Example: YouTube
+<iframe 
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  width="300"
+  height="200">
+</iframe>
+Example: Google Maps
+<iframe src="https://maps.google.com"></iframe>
+
+📌 Used for videos, maps, ads.
+5️⃣ HTML ATTRIBUTES (VERY IMPORTANT)
+Attributes give extra information to tags.
+
+🔹 id
+👉 Unique identifier (used by CSS & JS).
+<p id="para1">Hello</p>
+✔️ Must be unique
+
+🔹 class
+👉 Used to group elements.
+<p class="text">One</p>
+<p class="text">Two</p>
+✔️ Can be reused
+✔️ Very important for CSS
+
+🔹 src
+👉 Source of file (image, video, audio).
+<img src="image.jpg">
+
+🔹 href
+👉 Link destination.
+<a href="https://google.com">Google</a>
+
+🔹 alt
+👉 Alternative text for images.
+<img src="logo.png" alt="Company Logo">
+✔️ Accessibility
+✔️ SEO
+✔️ Shows when image fails
+
+🔹 title
+👉 Tooltip text on hover.
+<p title="This is info">Hover me</p>
+
+📌 INTERVIEW LINE
+Attributes provide additional information about HTML elements.
+
+6️⃣ HTML ENTITIES
+Used to display special characters.
+Entity	Output	Use
+&lt;	<	Less than
+&gt;	>	Greater than
+&copy;	©	Copyright
+&nbsp;	space	Extra space
+Example
+<p>&copy; 2026 HTML Learning</p>
+
+7️⃣ ACCESSIBILITY BASICS (BEGINNER LEVEL)
+Accessibility = website usable by everyone, including screen readers.
+
+🔹 Alt Text (MUST)
+<img src="photo.jpg" alt="Student photo">
+✔️ Screen readers read this
+✔️ Required for images
+
+🔹 Proper Labels
+<label for="email">Email:</label>
+<input type="email" id="email">
+
+✔️ Helps visually impaired users
+🔹 Semantic Tags
+Use:
+<header>
+<nav></nav>
+<section>
+<article>
+<footer>
+❌ Avoid only <div> everywhere.
+
+🧠 FINAL INTERVIEW SUMMARY (MEMORIZE)
+Meta tags → SEO + mobile
+Media tags → audio, video, embed
+Attributes → connect HTML with CSS & JS
+Entities → special symbols
+Accessibility → alt, labels, semantics
