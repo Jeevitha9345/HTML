@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!-- Document type html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <meta name="Author" content="Jeevitha">
+    <meta name="description" content="HTML Learning">
+    <title>HTML Learning</title>
+    <link rel="icon" href="logo.png" type="image/x=icon">
+    <link rel="stylesheet" href="main.css">
+    <!-- <style>
+        html{
+            font-size:20 px;
+        }
+        body{
+            background-color:antiquewhite;
+            color:black;
+        }
+        /* Inline CSS */
+    </style> -->
+</head>
+<body>
+    <img src="logo.png" alt="Elva dressed as a fairy" style="border:30px solid brown"title="Jeevitha" id="img">
+    <h1 style="color:aqua;text-align: center;">Jeevitha</h1>
+    <ul type="square"><li><h1 >Hello world</h1><!--unordered list with type of shape-->
+        <!-- we can give a list inside a list which is called as nested list-->
+    <p><b>&nbsp;Learning....&lt;&gt;</b></p>
+    <address> pethappampatti
+        123 tirppur</address></li>
+    <li><h1>Hello world</h1>
+    <p><strong>&nbsp;Learning....&lt;&gt;</strong></p>
+    <address> pethappampatti
+        123 tirppur</address></li>
+    <li><h1>Hello world</h1>
+    <p><i>&nbsp;Learning....&lt;&gt;</i></p>
+    <address> pethappampatti
+        123 tirppur</address></li></ul>
+        <ol type="A"><li><h1 >Hello world</h1><!--ordered list with type of roman(I or i) or (A or a)-->
+            <p><b>&nbsp;Learning....&lt;&gt;</b></p>
+            <address> pethappampatti
+                123 tirppur</address></li>
+            <li><h1>Hello world</h1>
+            <p><strong>&nbsp;Learning....&lt;&gt;</strong></p>
+            <address> pethappampatti
+                123 tirppur</address></li>
+            <li><h1>Hello world</h1>
+            <p><i>&nbsp;Learning....&lt;&gt;</i></p>
+            <address> pethappampatti
+                123 tirppur</address></li></ol>
+        <p> I learn from <abbr title="YouTube">UT</abbr> when I'm free</p>
+        <p><em>&nbsp;Learning....&lt;&gt;</em></p>
+        <p><small>&nbsp;Learning....&lt;&gt;</small></p>
+        <p><mark>&nbsp;Learning....&lt;&gt;</mark></p>
+        <a href="https://developer.mozilla.org/en-US/">Reference</a><!--load in same page-->
+        <br>
+        <a href="https://developer.mozilla.org/en-US/" target="referesh">Reference</a><!--load in different page-->
+        <br>
+        <a href="https://developer.mozilla.org/en-US/" target="_blank">Reference</a><!--go to previous page if we came from previous-->
+        <br>
+        <a href="http://127.0.0.1:5500/index.html" target="refresh">
+        <img src="logo.png" alt="Elva dressed as a fairy"></a>
+        <br>
+        <a href="mailto:jeevithaselvaraj.9345@gmail.com">Mail Me</a><!--To mail direct linking-->
+        <br>
+        <del>Removed </del>
+        <br>
+        <ins>Inserted/Underlined</ins>
+        <p>a<sup>2</sup>+b<sup>2</sup>+2ab</p>
+        <p>a<sub>2</sub>+b<sub>2</sub>+2ab</p>
+        <q>Quotation</q>
+        <br><br>
+        <table width="200 px" style="border:dashed"><!--width to 200 px to the table and individual column can also set the width-->
+            <caption>Languages Known</caption>
+            <thead style="text-align: left;"><!--Align to left-->
+                <tr>
+                    <!-- <th>Sno</th> -->
+                    <th colspan="2">Language</th>
+                    <th>Completed</th>
+                </tr>
+            </thead>
+            <tbody style="text-align: center;"><!--align to center-->
+                <tr>
+                    <td>1</td>
+                    <td>Java</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Python</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>C</td>
+                    <td rowspan="2">No</td><!--belongs to both rows/columns we use span-->
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>C++</td>
+                    <!-- <td>No</td> -->
+                </tr>
+            </tbody>
+        </table>
+        <a href="#img">Image call</a>
+        <br>
+        <iframe src="http://127.0.0.1:5500/index.html" width="50%" height="100%"></iframe>
+        <br>
+        <p>form attribute to get input</p>
+        <fieldset>
+            <legend>sign up</legend><!-- to give a box over it and only accessable inside an fieldset-->
+        <form action="page1.html">
+            <label>Name</label>
+            <input type="text" value="Enter your name" required><!--value is used to set default value and want to erase and type but placeholder is used to just show and dont want to erase-->
+            <br>
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password" required>
+            <br>
+            <label>Phone number</label>
+            <input type="number" placeholder="Enter your number"><br>
+            <label>Date</label>
+            <input type="datetime-local" disabled><!--disabled is used to disable and can't change it-->
+            <br><!-- we can use placeholder to just show it-->
+            <label>Gender</label>
+            <input type="radio" name="gender">
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <br>
+            <input type="checkbox" name="agree" id="agree" required>
+            <label>Terms and conditions </label>
+            <br>
+            <input type="submit">
+        </form>
+        </fieldset>
+      <!--some websites refuses to connect-->
+      <!--by using a id we just scroll back to the particular image or source-->
+      <!-- div is an block element and span is an inline element both are containers-->  
+       <!-- id->unique and only once in a page
+        but class->common we can apply to more tags-->
+        <!-- iframe- ini oru page or website a nama page la kondu varathu-->
+</body>
+</html>

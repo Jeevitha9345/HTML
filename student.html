@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Input Boxes</title>
+</head>
+<body>
+    <center>
+    <h1>Basic Input Boxes in HTML</h1>
+    <form action="http://localhost:8080/students" method="post" target="result">
+    <label>Name:</label>
+    <input type="text" name="name" placeholder="Enter Your name">
+    <br><br>
+    <label>Department:</label>
+    <input type="text" name="dept" placeholder="Enter Your Department">
+    <br><br>
+    <button type="submit">Save</button>
+    </form>
+
+    <!-- without form tag it will work but won't submit data -->
+
+     <iframe name="result" src="http://localhost:8080/students" style="width:600px; height:400px;"></iframe>
+</body>
+</html>
