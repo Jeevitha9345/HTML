@@ -1,0 +1,122 @@
+<!-- basic html structure -->
+<!-- <!DOCTYPE html> tells the browser this document uses HTML5 -->
+<!DOCTYPE html>
+
+<!-- <html> is the root element that wraps the entire webpage -->
+<!-- lang="en" helps browsers and screen readers understand language -->
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8"> sets character encoding (supports symbols & languages) -->
+    <meta charset="UTF-8">
+
+    <!-- <title> sets the text shown in browser tab -->
+    <title>HTML Example</title>
+</head>
+
+<!-- body tag -->
+<!-- <body> contains all visible content of the webpage -->
+<body>
+
+<!-- header to make a header -->
+<!-- <header> is used for introductory content like title or logo -->
+<header>
+    <!-- <h1> is the main heading of the page -->
+    <h1>HTML Demo</h1>
+
+    <!-- <p> is paragraph, <em> is emphasized (italic) text -->
+    <p><em>One single example page</em></p>
+</header>
+
+<!-- A navbar (navigation bar) is a section of a website that contains links to important pages also 
+helps users move (navigate) from one page/section to another -->
+<!-- <nav> is a semantic tag used for navigation links -->
+<nav>
+    <!-- <a> tag creates hyperlinks -->
+    <a href="#">Home</a> |
+    <a href="#">About</a>
+</nav>
+
+<!-- horizontal line -->
+<!-- <hr> creates a horizontal divider between sections -->
+<hr>
+
+<!-- create a section -->
+<!-- <section> is used to group related content in a webpage and think of it as one logical part of a page -->
+<section>
+    <!-- <h2> is a sub-heading -->
+    <h2>Text & Formatting</h2>
+
+    <!-- <strong> means important text (bold) and <mark> highlights text -->
+    <p>This is <strong>important</strong> and <mark>highlighted</mark> text.</p>
+</section>
+
+<section>
+    <h2>Image</h2>
+
+    <!-- <img> is used to display images
+         src = image path
+         alt = alternative text (important for accessibility) -->
+    <img src="image.jpg" alt="Sample image">
+    <!-- image tag -->
+</section>
+
+<section>
+    <h2>List</h2>
+
+    <!-- unordered list -->
+    <!-- <ul> creates a bullet list -->
+    <!-- <li> represents each list item -->
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Table</h2>
+
+    <!-- table tag -->
+    <!-- <table> is used to display data in rows & columns -->
+    <table border="1">
+        <tr>
+            <!-- tr=>table row, th=>table heading, td=>table data -->
+            <th>Name</th>
+            <th>Skill</th>
+        </tr>
+        <tr>
+            <td>Jeevi</td>
+            <td>HTML</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <!-- form tag used to create a form-->
+    <!-- <form> is used to collect user input -->
+    <h2>Form</h2>
+    <form>
+
+        <!-- <label> describes input field -->
+        <!-- <input type="text"> is used for text input -->
+        <label>Name:</label>
+        <input type="text"><br><br>
+
+        <!-- <input type="email"> validates email format -->
+        <label>Email:</label>
+        <input type="email"><br><br>
+
+        <!-- <button> is used to submit form -->
+        <button>Submit</button>
+    </form>
+</section>
+
+<!-- footer tag -->
+<!-- <footer> is used for copyright or extra info -->
+<footer>
+    <!-- <small> displays smaller text -->
+    <p><small>© 2026 HTML Learning</small></p>
+</footer>
+
+</body>
+</html>

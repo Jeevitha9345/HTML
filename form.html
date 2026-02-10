@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+<h2>Student Registration Form</h2>
+
+<!-- form tag is used to collect user input and used for submitting data to a server -->
+<form>
+    <!-- text input -->
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <!-- email input -->
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <!-- password input -->
+    <label for="password">Password:</label>
+    <input type="password" id="password">
+    <br><br>
+
+    <!-- number input -->
+    <label for="age">Age:</label>
+    <input type="number" id="age">
+    <br><br>
+
+    <!-- radio buttons -->
+    <label>Gender:</label>
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <br><br>
+
+    <!-- checkbox -->
+    <label>Skills:</label>
+    <input type="checkbox"> HTML
+    <input type="checkbox"> CSS
+    <input type="checkbox"> JavaScript
+    <br><br>
+
+    <!-- dropdown -->
+    <label for="course">Course:</label>
+    <select id="course">
+        <option>Web Development</option>
+        <option>Data Science</option>
+        <option>AI & ML</option>
+    </select>
+    <br><br>
+
+    <!-- textarea -->
+    <label for="message">About You:</label><br>
+    <textarea id="message" rows="4" cols="30" placeholder="Write something..."></textarea>
+    <br><br>
+
+    <!-- submit button -->
+    <button type="submit">Register</button>
+
+</form>
+
+
+
+
+<!-- div vs section vs article -->
+ <section>
+    <h2>Blog</h2>
+
+    <article>
+        <h3>Post 1</h3>
+        <p>Content...</p>
+    </article>
+
+    <article>
+        <h3>Post 2</h3>
+        <p>Content...</p>
+    </article>
+</section>
+
+</body>
+</html>
