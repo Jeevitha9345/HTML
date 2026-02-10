@@ -278,48 +278,43 @@ function hello() {
 <meta>
 📌 No closing tag needed
 
+
+
 1️⃣ <header>
 Use: Top section of page/section
 <header>My Website</header>
 Output:
 👉 Displays My Website at the top
-________________________________________
 2️⃣ <nav>
 Use: Navigation menu
 <nav>Home | About | Contact</nav>
 Output:
 👉 Shows navigation links text
-________________________________________
 3️⃣ <main>
 Use: Main content of page (only one allowed)
 <main>Main Content Here</main>
 Output:
 👉 Displays main content area
-________________________________________
 4️⃣ <section>
 Use: Logical grouping of content
 <section>About Section</section>
 Output:
 👉 Displays “About Section”
-________________________________________
 5️⃣ <article>
 Use: Independent content (blog, post)
 <article>Blog Post</article>
 Output:
 👉 Displays “Blog Post”
-________________________________________
 6️⃣ <aside>
 Use: Side content / ads
 <aside>Advertisement</aside>
 Output:
 👉 Displays “Advertisement” on side
-________________________________________
 7️⃣ <footer>
 Use: Bottom section
 <footer>© 2026</footer>
 Output:
 👉 Displays copyright text
-________________________________________
 8️⃣ <figure>
 Use: Image with description
 <figure>
@@ -327,28 +322,24 @@ Use: Image with description
 </figure>
 Output:
 👉 Shows image
-________________________________________
 9️⃣ <figcaption>
 Use: Caption for image
 <figure>
-  <img src="car.jpg">
-  <figcaption>Sports Car</figcaption>
+<img src="car.jpg">
+<figcaption>Sports Car</figcaption>
 </figure>
 Output:
 👉 Image + text Sports Car
-________________________________________
 🔟 <audio>
 Use: Play audio
 <audio controls src="song.mp3"></audio>
 Output:
 👉 Audio player with controls
-________________________________________
 1️⃣1️⃣ <video>
 Use: Play video
 <video controls src="video.mp4"></video>
 Output:
 👉 Video player
-________________________________________
 1️⃣2️⃣ <source>
 Use: Multiple media formats
 <video controls>
@@ -356,7 +347,6 @@ Use: Multiple media formats
 </video>
 Output:
 👉 Video plays
-________________________________________
 1️⃣3️⃣ <track>
 Use: Subtitles
 <video controls>
@@ -364,7 +354,6 @@ Use: Subtitles
 </video>
 Output:
 👉 Subtitle option available
-________________________________________
 1️⃣4️⃣ <details>
 Use: Expand / collapse content
 <details>
@@ -372,7 +361,6 @@ Use: Expand / collapse content
 </details>
 Output:
 👉 Clickable arrow → shows content
-________________________________________
 1️⃣5️⃣ <summary>
 Use: Title for details
 <details>
@@ -381,13 +369,11 @@ Use: Title for details
 </details>
 Output:
 👉 Click More → shows “Info here”
-________________________________________
 1️⃣6️⃣ <dialog>
 Use: Popup dialog box
 <dialog open>Hello</dialog>
 Output:
 👉 Small popup showing Hello
-________________________________________
 1️⃣7️⃣ <datalist>
 Use: Input suggestions
 <input list="city">
