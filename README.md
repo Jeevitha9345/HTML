@@ -78,7 +78,7 @@ Why language is important?
 •	Google understands content language
 •	Helps translation
 Example:
-<html lang="ta">  <!-- Tamil page -->
+<html lang="ta">  <!-- Tamil language page -->
 🧠 Tells browser what language humans will read.
 3️⃣ <head> SECTION
 <head>
