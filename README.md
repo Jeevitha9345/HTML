@@ -30,7 +30,7 @@ Revival of HTML
 •	Opera created an early HTML forms extension
 •	Proposal rejected by W3C in 2004
 Birth of WHATWG
-•	Apple, Mozilla, and Opera formed WHATWG
+•	Apple, Mozilla and Opera formed WHATWG
 •	Focus on:
 o	Backward compatibility
 o	Real-world browser behavior
@@ -55,18 +55,18 @@ BASIC HTML STRUCTURE
 </body>
 </html>
 
-1️⃣ <!DOCTYPE html>
+<!DOCTYPE html>
 What is it?
 •	It is not a tag
 •	It tells the browser:
-👉 “This webpage is written in HTML5”
+“This webpage is written in HTML5”
 Why we use it?
 •	Browser has two modes:
 o	Old mode (quirks mode)
 o	New mode (standards mode)
 <!DOCTYPE html> forces new / modern mode
 Simple meaning: Browser, please behave properly.
-2️⃣ <html> TAG
+<html> TAG
 <html lang="en">
 What is it?
 •	The main container of the webpage
@@ -79,8 +79,8 @@ Why language is important?
 •	Helps translation
 Example:
 <html lang="ta">  <!-- Tamil language page -->
-🧠 Tells browser what language humans will read.
-3️⃣ <head> SECTION
+Tells browser what language humans will read.
+<head> SECTION
 <head>
 </head>
 What is inside <head>?
@@ -91,11 +91,10 @@ Used for:
 •	Language encoding
 •	SEO info
 •	Browser settings
-❌ Don’t put text or images here
-✌️Head is for browser, not for user.
-4️⃣ <meta charset="UTF-8">
+Don’t put text or images here
+Head is for browser, not for user.
 <meta charset="UTF-8">
-
+<meta charset="UTF-8">
 What does it do?
 •	Tells browser how to read letters
 Why UTF-8?
@@ -103,12 +102,12 @@ Why UTF-8?
 o	English
 o	Tamil
 o	Hindi
-o	Emoji 😄
+o	Emoji
 If we don’t use it:
 •	Letters may break
 •	Symbols may show wrong
-🧠 UTF-8 = all languages support
-5️⃣ <title> TAG
+UTF-8 = all languages support
+<title> TAG
 <title>My First Page</title>
 What does it do?
 •	Shows name in browser tab
@@ -118,8 +117,8 @@ Rules:
 •	Must be meaningful
 Good example:
 <title>HTML Learning</title>
-🧠 Title = page name for browser & Google
-6️⃣ <body> TAG
+Title = page name for browser & Google
+<body> TAG
 <body>
 </body>
 What is it?
@@ -130,14 +129,14 @@ Inside body:
 •	Links
 •	Forms
 •	Tables
-✌️Body = visible part of website
-🔁 EASY STRUCTURE TO REMEMBER
+Body = visible part of website
+EASY STRUCTURE TO REMEMBER
 Think like human body
 DOCTYPE → Rules
 html    → Body wrapper
 head    → Brain (thinking, info)
 body    → Face & hands (visible)
-📝 ONE-LINE SUMMARY (VERY IMPORTANT)
+ONE-LINE SUMMARY (VERY IMPORTANT)
 •	DOCTYPE → Browser rules
 •	html → Main container
 •	head → Hidden info
@@ -153,48 +152,51 @@ body    → Face & hands (visible)
   Welcome to my site
 </body>
 </html>
-📌 This is the minimum working HTML page
-🟢 2. METADATA TAGS
+This is the minimum working HTML page
+
+2. METADATA TAGS
 <meta charset="UTF-8">
 <meta name="description" content="Student portfolio website">
 <link rel="stylesheet" href="style.css">
-📌 Used for SEO, language support, CSS linking
+Used for SEO, language support, CSS linking
 
-
-
-🟢 3. HEADINGS & PARAGRAPH
+3. HEADINGS & PARAGRAPH
 <h1>Welcome</h1>
 <h2>About Me</h2>
 <p>I am learning HTML.</p>
-📌 Used to structure content properly
-🟢 4. TEXT FORMATTING
+Used to structure content properly
+4. TEXT FORMATTING
 <p><strong>Important:</strong> Submit before Friday</p>
 <p><em>Italic text</em></p>
 <p><mark>Highlighted text</mark></p>
 <p>Price <del>₹500</del> ₹300</p>
-📌 Used in blogs, notices, offers
-🟢 5. DIV & SPAN
+Used in blogs, notices, offers
+
+5. DIV & SPAN
 <div>
   <h2>Section</h2>
   <p>Grouped content</p>
 </div>
 <p>This is <span>important</span> text</p>
-📌 div → block
-📌 span → inline
-🟢 6. LINKS
+div → block
+span → inline
+6. LINKS
 <a href="https://google.com">Go to Google</a>
 <a href="#contact">Go to Contact</a>
 <a href="mailto:test@gmail.com">Send Email</a>
-📌 Used for navigation & communication
-🟢 7. IMAGES
+Used for navigation & communication
+
+7. IMAGES
 <img src="profile.jpg" alt="My profile photo">
-📌 alt is mandatory for accessibility & SEO
-🟢 8. FIGURE & CAPTION
+alt is mandatory for accessibility & SEO
+
+8. FIGURE & CAPTION
 <figure>
   <img src="car.jpg">
   <figcaption>Sports Car</figcaption>    </figure>
-📌 Used for images with description
-🟢 9. LISTS
+Used for images with description
+
+9. LISTS
 <ul>
   <li>HTML</li>
   <li>CSS</li>
@@ -203,14 +205,16 @@ body    → Face & hands (visible)
   <li>Login</li>
   <li>Dashboard</li>
 </ol>
-📌 Used in menus, steps, features
-🟢 10. DESCRIPTION LIST
+Used in menus, steps, features
+
+10. DESCRIPTION LIST
 <dl>
   <dt>HTML</dt>
   <dd>Markup language</dd>
 </dl>
-📌 Used for definitions
-🟢 11. TABLES
+Used for definitions
+
+11. TABLES
 <table border="1">
   <tr>
     <th>Name</th>
@@ -221,212 +225,242 @@ body    → Face & hands (visible)
     <td>95</td>
   </tr>
 </table>
-📌 Used for reports, dashboards
-🟢 12. FORMS
+Used for reports, dashboards
+
+12. FORMS
 <form>
   <label>Name:</label>
   <input type="text">
   <button>Submit</button>
 </form>
-📌 Used for login, signup, feedback
-🟢 13. INPUT TYPES
+Used for login, signup, feedback
+
+13. INPUT TYPES
 <input type="email" placeholder="Email">
 <input type="password" placeholder="Password">
 <input type="radio"> Male
 <input type="checkbox"> Agree
-📌 Used to collect user data
-🟢 14. SELECT & TEXTAREA
+Used to collect user data
+
+14. SELECT & TEXTAREA
 <select>
   <option>India</option>
   <option>USA</option>
 </select>
 <textarea>Message</textarea>
-📌 Used in forms
-🟢 15. SEMANTIC TAGS 
+Used in forms
+
+15. SEMANTIC TAGS 
 <header>Website Header</header>
 <nav>Menu</nav>
 <main>Main content</main>
 <section>About section</section>
 <footer>Copyright 2026</footer>
-📌 Used in real professional websites
-🟢 16. DETAILS & SUMMARY
+Used in real professional websites
+
+16. DETAILS & SUMMARY
 <details>
   <summary>More Info</summary>
   Hidden content here
 </details>
-📌 Click to expand content
-🟢 17. IFRAME
+Click to expand content
+
+17. IFRAME
 <iframe src="https://example.com"></iframe>
-📌 Used to embed another webpage
-🟢 18. CODE & PRE
+Used to embed another webpage
+18. CODE & PRE
 <pre>
 function hello() {
   return "Hi";
 }
 </pre>
 <code>console.log("Hello")</code>
-📌 Used in documentation & tutorials
-🟢 19. MEDIA
+Used in documentation & tutorials
+
+19. MEDIA
 <audio controls src="song.mp3"></audio>
 <video controls src="video.mp4"></video>
-📌 Used in media websites
-🟢 20. VOID TAGS OR SELF CLOSING TAGS (NO CLOSING)
+Used in media websites
+
+20. VOID TAGS OR SELF CLOSING TAGS (NO CLOSING)
 <br>
 <hr>
 <img>
 <input>
 <meta>
-📌 No closing tag needed
+No closing tag needed
 
-
-
-1️⃣ <header>
+1. <header>
 Use: Top section of page/section
 <header>My Website</header>
 Output:
-👉 Displays My Website at the top
-2️⃣ <nav>
+Displays My Website at the top
+
+2. <nav>
 Use: Navigation menu
 <nav>Home | About | Contact</nav>
 Output:
-👉 Shows navigation links text
-3️⃣ <main>
+Shows navigation links text
+
+3. <main>
 Use: Main content of page (only one allowed)
 <main>Main Content Here</main>
 Output:
-👉 Displays main content area
-4️⃣ <section>
+Displays main content area
+
+4. <section>
 Use: Logical grouping of content
 <section>About Section</section>
 Output:
-👉 Displays “About Section”
-5️⃣ <article>
+Displays “About Section”
+
+5. <article>
 Use: Independent content (blog, post)
 <article>Blog Post</article>
 Output:
-👉 Displays “Blog Post”
-6️⃣ <aside>
+Displays “Blog Post”
+
+6. <aside>
 Use: Side content / ads
 <aside>Advertisement</aside>
 Output:
-👉 Displays “Advertisement” on side
-7️⃣ <footer>
+Displays “Advertisement” on side
+
+7. <footer>
 Use: Bottom section
 <footer>© 2026</footer>
 Output:
-👉 Displays copyright text
-8️⃣ <figure>
+Displays copyright text
+
+8. <figure>
 Use: Image with description
 <figure>
   <img src="car.jpg">
 </figure>
 Output:
-👉 Shows image
-9️⃣ <figcaption>
+Shows image
+
+9. <figcaption>
 Use: Caption for image
 <figure>
 <img src="car.jpg">
 <figcaption>Sports Car</figcaption>
 </figure>
 Output:
-👉 Image + text Sports Car
-🔟 <audio>
+Image + text Sports Car
+
+10. <audio>
 Use: Play audio
 <audio controls src="song.mp3"></audio>
 Output:
-👉 Audio player with controls
-1️⃣1️⃣ <video>
+Audio player with controls
+
+11. <video>
 Use: Play video
 <video controls src="video.mp4"></video>
 Output:
-👉 Video player
-1️⃣2️⃣ <source>
+Video player
+
+12. <source>
 Use: Multiple media formats
 <video controls>
   <source src="video.mp4">
 </video>
 Output:
-👉 Video plays
-1️⃣3️⃣ <track>
+Video plays
+
+13. <track>
 Use: Subtitles
 <video controls>
   <track kind="subtitles">
 </video>
 Output:
-👉 Subtitle option available
-1️⃣4️⃣ <details>
+Subtitle option available
+
+14. <details>
 Use: Expand / collapse content
 <details>
   Hidden Info
 </details>
 Output:
-👉 Clickable arrow → shows content
-1️⃣5️⃣ <summary>
+Clickable arrow → shows content
+
+15. <summary>
 Use: Title for details
 <details>
   <summary>More</summary>
   Info here
 </details>
 Output:
-👉 Click More → shows “Info here”
-1️⃣6️⃣ <dialog>
+Click More → shows “Info here”
+
+16. <dialog>
 Use: Popup dialog box
 <dialog open>Hello</dialog>
 Output:
-👉 Small popup showing Hello
-1️⃣7️⃣ <datalist>
+Small popup showing Hello
+
+17. <datalist>
 Use: Input suggestions
 <input list="city">
 <datalist id="city">
  <option value="Chennai">
 </datalist>
 Output:
-👉 Dropdown suggestion while typing
-1️⃣8️⃣ <output>
+Dropdown suggestion while typing
+
+18. <output>
 Use: Display calculated result
 <output>Result</output>
 Output:
-👉 Displays Result
-1️⃣9️⃣ <meter>
+Displays Result
+
+19. <meter>
 Use: Measurement (low–high)
 <meter value="6" min="0" max="10"></meter>
 Output:
-👉 Meter bar partially filled
-2️⃣0️⃣ <progress>
+Meter bar partially filled
+
+20. <progress>
 Use: Task progress
 <progress value="40" max="100"></progress>
 Output:
-👉 Progress bar at 40%
-2️⃣1️⃣ <time>
+Progress bar at 40%
+
+21. <time>
 Use: Date/time info
 <time>10:30 AM</time>
 Output:
-👉 Displays 10:30 AM
-2️⃣2️⃣ <data>
+Displays 10:30 AM
+
+22. <data>
 Use: Machine-readable value
 <data value="101">Product</data>
 Output:
-👉 Displays Product
-2️⃣3️⃣ <canvas>
+Displays Product
+
+23. <canvas>
 Use: Draw graphics (JS)
 <canvas width="100" height="50"></canvas>
 Output:
-👉 Empty drawing area
-2️⃣4️⃣ <svg>
+Empty drawing area
+
+24. <svg>
 Use: Vector graphics
 Output:
-👉 SVG graphic space
-2️⃣5️⃣ <template>
+SVG graphic space
+
+25. <template>
 Use: Hidden reusable HTML
 <template>
 <p>Hello</p>
 </template>
 Output:
-👉 Nothing visible (used by JS)
-2️⃣6️⃣ <slot>
+Nothing visible (used by JS)
+
+26. <slot>
 Use: Web components
 <slot></slot>
 Output:
-👉 Placeholder content
-🧠 EXAM ONE-LINE SUMMARY
+Placeholder content
 HTML5 introduced semantic tags, media tags, interactive elements, and modern form controls to build rich web applications without plugins.
